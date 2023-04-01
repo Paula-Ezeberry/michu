@@ -1,23 +1,27 @@
 body{
+    
     background-image: url("https://i.pinimg.com/564x/df/b4/a5/dfb4a578a58d21e4a18ffef1cc7cff81.jpg");
  text-align: center;
 }
 
 h1{
     color:rgb(248, 105, 189);  
-  
-    font-family:  "Times New Roman", Arial, Helvetica ; 
+    font-size: 5vh;
+    margin-top: none;
+    font-family:  "Alkatra", Arial, Helvetica ; 
    
    }
 
    p{
-       font-size: 20px;
+       font-size: 2.5vh;
        font-family: Arial, Helvetica, "Times New Roman";
        color: rgb(248, 105, 189);
+       margin-left: 20px;
+       margin-right: 20px;
     
    }
    img{
-       height:200px;
+       height: 20vh;
        border-color:rgb(248, 105, 189);
        border-style: dashed;
        border: 3px;
@@ -32,6 +36,7 @@ h1{
    
    button{
        font-family: 'Alkatra', cursive;
+       font-size: 3vh;
        background-color:rgb(248, 105, 189);
        color: rgb(255, 255, 255);
        padding: 3vh;
@@ -44,3 +49,9 @@ h1{
    a{
     color:white;
    }
+
+   @media (m-width: 1000px) {
+    button {
+        background-color: yellow;
+    }
+}
